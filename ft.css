@@ -1,0 +1,194 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #121212; /* Dark background */
+    color: #ffffff; /* Light text for contrast */
+    line-height: 1.6;
+}
+/* Center the image within the section */
+#gym {
+    display: flex; /* Enables Flexbox layout */
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+    height: 100px; /* Set a height for the section */
+    background: #1e1e1e; /* Optional: Add a background color for contrast */
+    margin: 20px auto;
+    border-radius: 10px; /* Optional: Rounded edges for better aesthetics */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); /* Optional: Add a shadow */
+}
+
+#gym img {
+    max-width: 100%; /* Ensures the image doesn't overflow the container */
+    height: 150px; /* Maintains the image aspect ratio */
+    border-radius: 10px; /* Optional: Rounded edges for the image */
+    border: 2px solid #ff6f61; /* Optional: Add a border for visual pop */
+}
+
+
+/* Header Styling */
+header {
+    background: #1e1e1e;
+    color: #c0635a;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header nav {
+    margin-top: 15px;
+}
+
+header nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+}
+
+header nav a:hover {
+    color: #ff6f61;
+}
+
+/* Hero Section */
+#hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(135deg, #ff6f61, #4b134f);
+    color: #ffffff;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 90%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+#hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+#hero p {
+    font-size: 1.2rem;
+}
+
+/* About Section */
+#about {
+    padding: 30px 20px;
+    margin: 20px auto;
+    max-width: 90%;
+    background: #1e1e1e;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+#about h2 {
+    color: #ff6f61;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#about article {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+#about img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 2px solid #ff6f61;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #1e1e1e;
+    color: #ffffff;
+    margin-top: 20px;
+    font-size: 1rem;
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.3);
+}
+
+footer p {
+    margin: 0;
+}
+
+/*next*/
+/* About Section */
+#about {
+    padding: 30px 20px;
+    margin: 20px auto;
+    max-width: 90%;
+    background: #1e1e1e;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    animation: fadeIn 1s ease-in-out;
+}
+
+#about h2 {
+    color: #ff6f61;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+#about article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.card {
+    background: linear-gradient(135deg, #ff6f61, #4b134f);
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 45%;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s, box-shadow 0.3s;
+    position: relative;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.7);
+}
+
+.card p {
+    font-size: 1rem;
+    margin: 10px 0 0;
+    color: #ffffffcc;
+    line-height: 1.5;
+}
+
+.icon {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #ffe4b5;
+    display: block;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

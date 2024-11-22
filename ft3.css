@@ -1,0 +1,99 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* BMI Section */
+#bmi {
+    text-align: center;
+}
+
+.bmi-container {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 400px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.bmi-container h2 {
+    color: #ff5733;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.bmi-container p {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Form Styling */
+#bmi-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#bmi-form label {
+    text-align: left;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#bmi-form input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+}
+
+#bmi-form input:focus {
+    outline: none;
+    border: 1px solid #ff5733;
+    box-shadow: 0 0 5px rgba(255, 87, 51, 0.5);
+}
+
+#bmi-form button {
+    padding: 10px;
+    background-color: #ff5733;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.3s;
+}
+
+#bmi-form button:hover {
+    background-color: #e64a19;
+}
+
+/* BMI Result Styling */
+#bmi-result {
+    margin-top: 15px;
+    font-size: 1.2rem;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
