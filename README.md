@@ -3,8 +3,6 @@
 
 **Fitness.io** is a beginner-level front-end project representing a modern fitness website built with HTML and CSS. It's designed as a static landing page to promote fitness training, healthy lifestyle habits, and gym services.
 
-![Fitness.io Screenshot](https://via.placeholder.com/800x400?text=Project+Screenshot) <!-- Replace with real screenshot if you upload one -->
-
 ---
 
 ## 📌 Features
