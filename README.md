@@ -25,3 +25,8 @@
 
 ## 📂 Folder Structure
 
+Fitness.io/
+├── index.html
+├── style.css
+├── images/
+└── README.md
